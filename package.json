@@ -1,0 +1,24 @@
+{
+  "name": "commerce-site",
+  "version": "1.0.0",
+  "description": "rest api for commerce site with many features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "eman elkafrawy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "messagebird": "^2.4.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.11",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^2.0.13"
+  }
+}
